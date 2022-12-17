@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: soultechcond-discovery
+  cloud:
+    config:
+      uri: https://soultechcond-configserver.herokuapp.com
+  profiles:
+    active: local
